@@ -1,0 +1,24 @@
+.App {
+  text-align: left;
+}
+
+.star-rating {
+  transition: color 0.2s ease-in-out;
+}
+
+.rating-stars-large {
+  transition: all 0.2s ease-in-out;
+}
+
+.rating-stars-large:hover {
+  transform: scale(1.1);
+}
+
+.sortable-header {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable-header:hover {
+  background-color: #f8f9fa;
+}
